@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  height: 100vh;
+}
+
+.logo {
+  height: 7em;
+  padding-top: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.app-container {
+  color: #2f2e41;
+  font-family: 'Open Sans', sans-serif;
+}

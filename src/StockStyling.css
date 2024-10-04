@@ -1,0 +1,65 @@
+/* Stock Input section */
+
+.stock-input-container {
+  display: flex;
+  flex-flow: wrap;
+  column-gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+
+#input {
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  margin: 10px;
+  border: solid 1px;
+}
+
+#submitButton {
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  background-color: #2f2e41;
+  border: solid 1px;
+  color: white;
+}
+
+/* Stock List section */
+
+.stock-list {
+  text-align: left;
+  margin: 20px;
+  font-family: "Open Sans", sans-serif;
+  
+}
+
+#stock-entries {
+  background-color: #f9a826bd;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: left;
+  margin: 10px;
+  font-size: small;
+  color: #2f2e41;
+}
+
+p{
+    line-height: 0.5em;
+}
+
+.profit {
+  color: green;
+}
+
+.loss {
+  color: red;
+}
+
+.neutral {
+  color: black;
+}
