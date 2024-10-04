@@ -49,7 +49,7 @@ function StockData(props) {
   return (
     <div className="stock-list">
       <h2>Stock List</h2>
-      <div>{stockEntries}</div>
+      {props.stockDataEntries.length === 0 ? (<p>No stocks have been added.</p>) : (<div>{stockEntries}</div>)}
     </div>
   );
 }
